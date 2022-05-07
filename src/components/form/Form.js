@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaEnvelope, FaUserAlt, FaKey } from "react-icons/fa";
+import { FaEnvelope, FaUserAlt, FaKey, FaUnlockAlt } from "react-icons/fa";
 import './styled-form.css';
 
 
@@ -37,7 +37,7 @@ const Form = (props) => {
                                 id="username"
                                 value={state.username}
                                 name="username"
-                                placeholder='User Name'
+                                placeholder='Username*'
                                 required 
                             />
                         </div>
@@ -50,24 +50,37 @@ const Form = (props) => {
                             id="email"
                             value={state.email}
                             name="email"
-                            placeholder='Email'
+                            placeholder='Email address*'
                             required
                         />
                         </div>
                         <label htmlFor='password'>Password</label>
                         <div className="input-container">
-                        <FaKey className="icon" />
-                        <input
-                            onChange={handlePasswordChange}
-                            type="text"
-                            id="password"
-                            value={state.password}
-                            name="password"
-                            placeholder='Password*'
-                            required
-                        />
+                            <FaKey className="icon" />
+                            <input
+                                onChange={handlePasswordChange}
+                                type="text"
+                                id="password"
+                                value={state.password}
+                                name="password"
+                                placeholder='Password*'
+                                required
+                            />
                         </div>
-                        <button type='submit'>Register</button>
+                        <label htmlFor='password'>Confirm Password</label>
+                        <div className="input-container">
+                            <FaUnlockAlt className="icon" />
+                            <input
+                                onChange={handlePasswordChange}
+                                type="text"
+                                id="password"
+                                value={state.password}
+                                name="password"
+                                placeholder='Confirm Password*'
+                                required
+                            />
+                        </div>
+                        <button className='form-btn' type='submit'>Register</button>
                     </form>
             </div>
         </>

@@ -1,0 +1,7 @@
+.page{
+    position: relative;
+    min-width: 500px;
+    height: 100vh;
+    background: url('./images/pic.jpg') center no-repeat;
+    background-size: cover;
+}
