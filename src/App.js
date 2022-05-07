@@ -1,4 +1,6 @@
-import './App.css';
+import * as React from 'react';
+import './index.css';
+
 
 function App() {
   return (
