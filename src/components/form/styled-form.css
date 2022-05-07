@@ -8,36 +8,34 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 input[type=text],
 input[type=email]{
     width: 100%;
     padding: 15px;
+    background-color: rgba(255, 255, 255, 0.918);
     border-radius: 0 7px 7px 0;
     margin: 5px 0 20px 0;
-    border: 1px solid rgb(44, 44, 44);   
+    border: none;   
 }
 input[type=text]:focus,
 input[type=email]:focus{
-    box-shadow: 1px 1px 10px rgb(0, 158, 250);
+    box-shadow: 1px 1px 10px rgb(16, 133, 65);
 }
 .form-btn{
-    padding: 20px 30px;
+    padding: 15px 30px;
     width: 100%;
-    margin: 10px 0;
     border-radius: 7px ;
     color: aliceblue;
     font-size: 20px;
     border: none;
     cursor: pointer;
-    background-color: rgb(11, 103, 179);
+    background-color: rgb(10, 190, 85);
 }
 .form-btn:hover{
-    background: rgb(51, 49, 145);
+    background: rgb(16, 133, 65);
 }
 label{
-    font-weight: bold;
-    color: rgb(99, 99, 99);
+    color: aliceblue;
 }
 hr{
     margin: 20px 0 30px;
@@ -52,11 +50,12 @@ hr{
     height: 50px;
     padding: 12px;
     border-radius: 7px 0 0 7px;
-    background-color: rgb(11, 103, 179);
-    color: rgb(238, 238, 238);
+    background-color: rgb(240, 240, 240);
+    color: rgb(37, 37, 37);
     min-width: 50px;
     text-align: center;
 }
 .form-title, p{
     margin: 10px 0;
+    color: aliceblue;
 }
