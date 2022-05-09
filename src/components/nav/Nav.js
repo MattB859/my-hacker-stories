@@ -8,7 +8,7 @@ return (
     <>
         <section className='nav-container'>
             <div className='navbar'>
-                <h1>Planet Tech</h1>
+                <h1 className='logo'>Geeka<span>Z</span>oid</h1>
                 <nav>
                     <ul className='nav-link'>
                         <li><Link to="/home">Home</Link></li>
