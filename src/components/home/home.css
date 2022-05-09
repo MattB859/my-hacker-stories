@@ -1,0 +1,38 @@
+.background{
+    background: url('./images/teams-4.jpg') bottom no-repeat;
+    background-size: cover;
+}
+
+.home-page-container {
+    position: relative;
+    height: 100vh;
+}
+
+.hm-header{
+    position: relative;
+    font-size: 60px;
+    color: rgb(242, 244, 247);
+    z-index: 100;
+}
+
+.hm-header span{
+    font-size: 90px;
+    color: rgb(0, 163, 0);
+}
+
+.hm-wrapper {
+    position: relative;
+    padding: 100px;
+    left: 5%;
+    top: 15%;
+    width: 50%;
+   
+}
+
+.overlay{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background: rgba(3, 3, 3, 0.726);
+}

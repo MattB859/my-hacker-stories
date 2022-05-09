@@ -2,22 +2,18 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div`
-    position: relative;
-    top: 20%;
+    position: absolute;
+    top: 15%;
+    left: 65%;
     z-index: 10;
     width: 500px;
     padding: 20px;
     margin: 0 auto;
-    background-color: rgba(7, 7, 7, 0.699);
-
-
+    background-color: rgba(7, 7, 7, 0.599);
 `
 
 export const Page = styled.div`
     position: relative;
-    min-width: 500px;
     height: 100vh;
-    background-image: url('./images/pic.jpg');
-    background-size: contain;
+    background-color: blueviolet;
 `
-

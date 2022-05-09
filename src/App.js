@@ -1,21 +1,22 @@
 import * as React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css';
 import Nav from './components/nav/Nav';
 import Form from './components/form/Form';
-import { Container } from './components/form/Styled';
-import { Page } from './components/form/Styled';
+import { Container } from './components/styled-components/Styled';
+import Home from './components/home/Home';
+import Blogs from './components/blogs/Blogs';
 
 
 
 function App() {
   return (
     <>
-    <Nav />
-      <Page>
-        <Container>
-          <Form title="Sign Up" name="Please fill in this form to create an account." />
-        </Container>
-      </Page>  
+      <Nav />
+      <Home />
+      <Container>
+        <Form title="Sign Up" name="Please fill in this form to create an account." />
+      </Container>
     </>
   );
 }

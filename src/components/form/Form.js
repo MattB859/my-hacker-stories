@@ -9,6 +9,7 @@ const Form = (props) => {
         username: "",
         email: "",
         password: "",
+        confirmpassword: "",
     });
 
     const handleUsernameChange = (event) => {
@@ -19,6 +20,9 @@ const Form = (props) => {
     }
     const handlePasswordChange = (event) => {
         setState({password: event.target.value})
+    }
+    const handleConfirmPasswordChange = (event) => {
+        setState({confirmpassword: event.target.value})
     }
 
     return (
@@ -59,7 +63,7 @@ const Form = (props) => {
                             <FaKey className="icon" />
                             <input
                                 onChange={handlePasswordChange}
-                                type="text"
+                                type="password"
                                 id="password"
                                 value={state.password}
                                 name="password"
@@ -71,10 +75,10 @@ const Form = (props) => {
                         <div className="input-container">
                             <FaUnlockAlt className="icon" />
                             <input
-                                onChange={handlePasswordChange}
-                                type="text"
-                                id="password"
-                                value={state.password}
+                                onChange={handleConfirmPasswordChange}
+                                type="password"
+                                id="confirmpassword"
+                                value={state.confirmpassword}
                                 name="password"
                                 placeholder='Confirm Password*'
                                 required
