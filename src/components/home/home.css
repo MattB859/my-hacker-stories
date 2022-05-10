@@ -12,22 +12,36 @@
     position: relative;
     font-size: 3vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(242, 244, 247);
+    color: rgb(255, 255, 255);
     z-index: 100;
 }
 
+.hm-header em{
+    color: rgb(27, 211, 104);
+  
+}
+
+.hm-header-2{
+    position: relative;
+    font-size: 3vw;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(222, 226, 231);
+    z-index: 100;
+}
+
+
 .hm-header span{
-    font-size: 90px;
+    font-size: 5.5vw;
     color: rgb(10, 190, 85);
 }
 
 .hm-wrapper {
     position: relative;
-    padding: 100px;
+    padding: 80px;
     left: 5%;
     top: 14%;
-    width: 50%;
-   
+    width: 50%; 
 }
 
 .overlay{
@@ -40,13 +54,11 @@
 
 .home-btn{
     position: absolute;
-    top: 55%;
-    left: 10%;
-    width: 30rem;
+    width: 40%;
     z-index: 10;
-    font-weight: bold;
+    font-weight: 500;
     border: none;
-    border-radius: 50px;
+    border-radius: 8px;
     cursor: pointer;
     height: 4rem;
     font-size: 25px;
@@ -55,14 +67,18 @@
 }
 
 .home-btn:hover{
-    background-color: rgb(39, 158, 39);
+    background: rgb(16, 133, 65);
 }
 
 .p{
     position: absolute;
-    top: 65%;
-    left: 10%;
+    margin-top: 100px;
     z-index: 10;
     color: rgb(222, 226, 230);
-    width: 50rem;
+    width: 20vw;
+}
+
+.hm-btn-container{
+    
+    margin-top: 40px;
 }
