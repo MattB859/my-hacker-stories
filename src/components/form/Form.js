@@ -12,6 +12,7 @@ const Form = (props) => {
         confirmpassword: "",
     });
 
+
     const handleUsernameChange = (event) => {
         setState({username: event.target.value})
     }

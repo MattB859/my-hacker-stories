@@ -5,11 +5,12 @@ import Nav from './components/nav/Nav';
 import Form from './components/form/Form';
 import { Container } from './components/styled-components/Styled';
 import Home from './components/home/Home';
-import Blogs from './components/blogs/Blogs';
 
 
 
 function App() {
+
+  
   return (
     <>
       <Nav />

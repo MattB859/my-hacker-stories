@@ -1,0 +1,35 @@
+.search {
+    margin: 0;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 3px solid rgb(9, 158, 71);
+    padding: 8px;
+    width: 350px;
+    background-color: rgba(237, 237, 252, 0);
+}
+
+.search-icon{
+    position: relative;
+    top: 16px;
+    height: 42px;
+    margin-left: 10px;
+    width: 50px;
+    padding: 8px;
+    border: 3px 0 0 solid #fff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+ 
+input::placeholder{
+    color: rgb(199, 199, 199);
+    font-size: 15px;
+}
+  
+input[type=text]{
+   color: #fff;
+   font-size: 15px;
+  }
+  
+  

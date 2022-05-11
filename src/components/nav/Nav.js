@@ -1,5 +1,6 @@
 import React  from 'react'
 import { Outlet, Link } from "react-router-dom";
+import Search from '../searchbar/Search';
 import './nav.css'
 
 const Nav = () => {
@@ -19,6 +20,9 @@ return (
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </nav>
+                <div>
+                <Search />
+                </div>
                 <div>
                     <button className='nav-btn-2'>Sign in</button>
                     <button className='nav-btn'>Sign Up</button>
