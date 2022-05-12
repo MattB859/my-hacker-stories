@@ -1,5 +1,5 @@
 import React  from 'react'
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Search from '../searchbar/Search';
 import './nav.css'
 
@@ -13,9 +13,9 @@ return (
                 <nav>
                     <ul className='nav-link'>
                         <li><Link to="/home">Home</Link></li>
-                        <li>Service</li>
-                        <li>Price</li>
-                        <li>Company</li>
+                        <li><Link to="/service">Service</Link></li>
+                        <li><Link to="/pricing">Pricing</Link></li>
+                        <li><Link to="/company">Company</Link></li>
                         <li><Link to="/blog">Blog</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
@@ -29,8 +29,6 @@ return (
                 </div>
             </div>
         </section>
-
-        <Outlet />
     </>    
   );
 };

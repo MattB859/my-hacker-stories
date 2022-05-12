@@ -3,12 +3,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     position: absolute;
-    top: 18%;
-    left: 65%;
+    top: 10%;
+    left: 80rem;
     z-index: 10;
-    width: 26%;
+    width: 50%;
     padding: 20px;
-    margin: 0 auto;
     background-color: rgba(7, 7, 7, 0.599);
 `
 
